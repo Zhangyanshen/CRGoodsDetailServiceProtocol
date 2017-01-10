@@ -26,7 +26,7 @@
 		FC1923081E24CAB10036C9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC19230B1E24CAB10036C9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC19230D1E24CAB10036C9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC1923131E24CAF50036C9D5 /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
+		FC1923D41E2508880036C9D5 /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		FC1922FB1E24CAB10036C9D5 /* CRGoodsDetailServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				FC1923131E24CAF50036C9D5 /* CRGoodsDetailServiceProtocol.h */,
+				FC1923D31E2508880036C9D5 /* CRGoodsDetailServiceProtocol */,
 				FC1922FF1E24CAB10036C9D5 /* AppDelegate.h */,
 				FC1923001E24CAB10036C9D5 /* AppDelegate.m */,
 				FC1923021E24CAB10036C9D5 /* ViewController.h */,
@@ -79,6 +79,14 @@
 				FC1922FD1E24CAB10036C9D5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1923D31E2508880036C9D5 /* CRGoodsDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				FC1923D41E2508880036C9D5 /* CRGoodsDetailServiceProtocol.h */,
+			);
+			path = CRGoodsDetailServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +322,7 @@
 				FC1923121E24CAB10036C9D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
